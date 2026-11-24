@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Less</string>
+	<key>CFBundleDisplayName</key>
+	<string>Less</string>
+	<key>CFBundleIdentifier</key>
+	<string>app.less.mac</string>
+	<key>CFBundleExecutable</key>
+	<string>Less</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.lifestyle</string>
+
+	<!-- The sentences macOS shows inside its own permission prompts. -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Less looks at the names of devices paired with this Mac, like headphones or a fitness band. It never connects to them.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Less listens for speakers, TVs and hubs on your home network by name only. Nothing is sent anywhere.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Less asks System Events which apps open when you log in. It doesn't change anything.</string>
+
+	<!-- Every kind of device Less may listen for. macOS only allows browsing what is listed here. -->
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_googlecast._tcp</string>
+		<string>_airplay._tcp</string>
+		<string>_raop._tcp</string>
+		<string>_spotify-connect._tcp</string>
+		<string>_hap._tcp</string>
+		<string>_homekit._tcp</string>
+		<string>_amzn-wplay._tcp</string>
+		<string>_sonos._tcp</string>
+	</array>
+
+	<!-- Allows plain http to this Mac only, for the optional local language model. -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
