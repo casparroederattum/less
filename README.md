@@ -1,12 +1,12 @@
 # Less
 
-A calm Mac app that looks at the technology in your life and tells you, kindly, what you could
+A Mac app that looks at the technology in your life and tells you, what you could
 turn down or let go of, and what to do instead. Everything stays on your Mac.
 
 > **This is more a thought I had than an app you can really use.** Each app we download is meant to
 > make life a little better, yet we are bad at knowing what actually makes us happier. Less is how I
 > worked through that idea: life can be much, much better if you delete stuff from it. It runs on
-> my Mac, but it is a sketch, not a finished product, so expect rough edges.
+> my Mac, but it is a sketch, not a finished product, but if you want to read my thoughts on this, go for it.
 
 ## What you need
 
